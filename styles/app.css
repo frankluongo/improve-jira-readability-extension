@@ -1,0 +1,25 @@
+.user-content-block {
+  padding: 3rem;
+
+  color: #333;
+  letter-spacing: 0.5px;
+
+  background-color: #f8f8f8;
+}
+
+.user-content-block * {
+  font-size: 1.25rem;
+  line-height: 1.8;
+}
+
+.user-content-block > * + * {
+  margin-top: 1rem;
+}
+
+.user-content-block ul {
+  padding-block: 1.5rem;
+}
+
+.user-content-block li + li {
+  margin-top: 1rem;
+}

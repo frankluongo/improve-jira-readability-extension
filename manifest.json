@@ -1,0 +1,23 @@
+{
+  "name": "Improve Jira Readability",
+  "description": "Improve the readability of Jira",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.svg"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/app.js"
+      ],
+      "css": [
+        "styles/app.css"
+      ],
+      "matches": [
+        "https://intranet.oreilly.com/jira/browse/*"
+      ]
+    }
+  ]
+}
