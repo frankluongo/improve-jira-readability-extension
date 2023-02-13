@@ -16,7 +16,7 @@
         "styles/app.css"
       ],
       "matches": [
-        "https://intranet.oreilly.com/jira/browse/*"
+        "https://*/jira/browse/*"
       ]
     }
   ]
